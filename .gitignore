@@ -1,0 +1,4 @@
+places.txt
+build/
+dist/
+*.spec
