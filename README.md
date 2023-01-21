@@ -2,9 +2,7 @@
 
 <h2>Description</h2>
 
-<p>
-    This project consists of two files: MythologicalPlacesScraper.py and MythologicalPlacesGenerator.py
-</p>
+<p>This project consists of two files: MythologicalPlacesScraper.py and MythologicalPlacesGenerator.py</p>
 
 <p>
     The scraper scrapes <a href="https://en.wikipedia.org/wiki/List_of_mythological_places" >this webpage</a>  and creates a file called "places.txt" to write places and their descriptions.
@@ -15,7 +13,7 @@
 </p>
 
 <p>
-    These scripts are written in python and are meant to be run from the commandline.  The scraper uses Selenium and Beautiful Soup to fetch the page and then parse it.
+    These scripts are written in python and are meant to be run from the commandline.  The scraper uses requests and Beautiful Soup to fetch the page and then parse it.
 </p>
 
 <h2> How to Install/Run the Project </h2>
@@ -29,13 +27,23 @@
 </p>
 
 <ul>
-    <li>pip install selenium</li>
+    <li>pip install requests</li>
     <li>pip install beautifulsoup4</li>
 </ul>
 
 <p>
-    The generator does not require any addtional frameworks.
+    Alternatively, you can use requirements.txt to install the necessary packages.  To do so, run the following command: pip install -r requirements.txt.  The generator does not require any addtional packages.
 </p>
+
+<p>
+    Version numbers of python and packages I used when writing this project:
+</p>
+
+<ul>
+    <li>Python==3.11.0</li>
+    <li>requests==2.28.2</li>
+    <li>beautifulsoup4==4.11.1</li>
+</ul>
 
 <h2> How to Use the Project </h2>
 
